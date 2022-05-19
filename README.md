@@ -13,5 +13,5 @@
 - Multiplexer： 多路选择器
 - Register_File： 寄存器
 - Reversible Counter： 可逆计数器
-- RGB： 交通灯基本逻辑的实现
+- RGB： 十字路口的交通信号灯设计
 - Shifting_Register： 移位寄存器
