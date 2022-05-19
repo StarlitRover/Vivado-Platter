@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../RGB.srcs/sources_1/new/Eliminate_Shaking.v" \
+"C:/Users/86180/Documents/GitHub/RGB-digit/RGB.srcs/sources_1/new/divider.v" \
+"../../../../RGB.srcs/sim_1/new/EN_Test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

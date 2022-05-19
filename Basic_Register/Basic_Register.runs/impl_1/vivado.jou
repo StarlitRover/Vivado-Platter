@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Dec 11 16:26:28 2021
+# Process ID: 13916
+# Current directory: D:/Data/Vivado/Basic_Register/Basic_Register.runs/impl_1
+# Command line: vivado.exe -log Basic_Register.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Basic_Register.tcl -notrace
+# Log file: D:/Data/Vivado/Basic_Register/Basic_Register.runs/impl_1/Basic_Register.vdi
+# Journal file: D:/Data/Vivado/Basic_Register/Basic_Register.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Basic_Register.tcl -notrace

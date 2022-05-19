@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Data/Vivado/Decoder/Decoder.srcs/sources_1/new/Decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Data/Vivado/Decoder/Decoder.srcs/sim_1/new/Decoder_Test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Decoder_Test

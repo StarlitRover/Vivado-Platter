@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Basic_Register.srcs/sources_1/new/Basic_Register.v" \
+"../../../../Basic_Register.srcs/sources_1/new/Register_8D.v" \
+"../../../../Basic_Register.srcs/sources_1/new/TriState_Gate.v" \
+"../../../../Basic_Register.srcs/sim_1/new/Basic_Register_Test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Data/Vivado/Base7_Counter/Base7_Counter.srcs/sources_1/new/Base7_Counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Base7_Counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Data/Vivado/Base7_Counter/Base7_Counter.srcs/sources_1/new/Counter_74LS161.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Counter_74LS161
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Data/Vivado/Base7_Counter/Base7_Counter.srcs/sim_1/new/Base7_Counter_Test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Base7_Counter_Test

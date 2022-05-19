@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed May  4 19:25:50 2022
+# Process ID: 19216
+# Current directory: D:/Data/Vivado/Fetch_Decode
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8404 D:\Data\Vivado\Fetch_Decode\Fetch_Decode.xpr
+# Log file: D:/Data/Vivado/Fetch_Decode/vivado.log
+# Journal file: D:/Data/Vivado/Fetch_Decode\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Data/Vivado/Fetch_Decode/Fetch_Decode.xpr
+open_project D:/Data/Vivado/Fetch_Decode/Fetch_Decode.xpr
+update_compile_order -fileset sources_1

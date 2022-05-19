@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../RGB.srcs/sources_1/new/Eliminate_Shaking.v" \
+"C:/Users/86180/Documents/GitHub/RGB-digit/RGB.srcs/sources_1/new/RGB.v" \
+"C:/Users/86180/Documents/GitHub/RGB-digit/RGB.srcs/sources_1/new/clockOneSecond.v" \
+"C:/Users/86180/Documents/GitHub/RGB-digit/RGB.srcs/sources_1/new/divider.v" \
+"C:/Users/86180/Documents/GitHub/RGB-digit/RGB.srcs/sources_1/new/freshClock.v" \
+"C:/Users/86180/Documents/GitHub/RGB-digit/RGB.srcs/sources_1/new/lightCTL.v" \
+"C:/Users/86180/Documents/GitHub/RGB-digit/RGB.srcs/sources_1/new/numberDisplay.v" \
+"C:/Users/86180/Documents/GitHub/RGB-digit/RGB.srcs/sources_1/new/numberDisplayOne.v" \
+"../../../../RGB.srcs/sources_1/new/Top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

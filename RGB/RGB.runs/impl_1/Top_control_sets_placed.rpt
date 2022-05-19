@@ -1,0 +1,82 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu Dec 30 00:14:19 2021
+| Host         : DESKTOP-1SAUHT5 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_control_sets_placed.rpt
+| Design       : Top
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    12 |
+| Unused register locations in slices containing registers |    41 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      5 |            1 |
+|      6 |            3 |
+|      7 |            1 |
+|      8 |            1 |
+|     10 |            1 |
+|     12 |            1 |
+|    16+ |            4 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              34 |           14 |
+| No           | No                    | Yes                    |               8 |            2 |
+| No           | Yes                   | No                     |              57 |           16 |
+| Yes          | No                    | No                     |              12 |            4 |
+| Yes          | No                    | Yes                    |               6 |            2 |
+| Yes          | Yes                   | No                     |              26 |            7 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------------------------------------------+--------------------------+-------------------------------------------------------------------+------------------+----------------+
+|                            Clock Signal                           |       Enable Signal      |                          Set/Reset Signal                         | Slice Load Count | Bel Load Count |
++-------------------------------------------------------------------+--------------------------+-------------------------------------------------------------------+------------------+----------------+
+|  clk_IBUF_BUFG                                                    |                          |                                                                   |                5 |              5 |
+|  ES1/div/CLK                                                      |                          |                                                                   |                1 |              6 |
+|  ES2/div/CLK                                                      |                          |                                                                   |                2 |              6 |
+| ~rgb/mainCTL/oneSecondTimer/clk_pos                               | rgb/mainCTL/Red1_i_1_n_0 | ES1/FSM_onehot_ST_reg[4]_0                                        |                2 |              6 |
+|  rgb/mainCTL/displayer/numberDisplayOne_uut/DP_inferred__0/i__n_0 |                          |                                                                   |                3 |              7 |
+| ~rgb/mainCTL/oneSecondTimer/clk_pos                               |                          | ES1/FSM_onehot_ST_reg[4]_0                                        |                2 |              8 |
+|  rgb/mainCTL/displayer/freshClock_uut/MHztoKHz/clk_pos_reg_0      |                          |                                                                   |                3 |             10 |
+| ~rgb/mainCTL/oneSecondTimer/clk_pos                               | ES1/E[0]                 |                                                                   |                4 |             12 |
+|  clk_IBUF_BUFG                                                    |                          | rgb/mainCTL/displayer/freshClock_uut/MHztoKHz/cnt_pos[16]_i_1_n_0 |                4 |             17 |
+|  clk_IBUF_BUFG                                                    |                          | ES1/div/cnt_pos[19]_i_1_n_0                                       |                6 |             20 |
+|  clk_IBUF_BUFG                                                    |                          | ES2/div/cnt_pos[19]_i_1__0_n_0                                    |                6 |             20 |
+|  clk_IBUF_BUFG                                                    | ES2/PAUSE_pulse          | rgb/mainCTL/oneSecondTimer/cnt_pos[26]_i_1_n_0                    |                7 |             26 |
++-------------------------------------------------------------------+--------------------------+-------------------------------------------------------------------+------------------+----------------+
+
+

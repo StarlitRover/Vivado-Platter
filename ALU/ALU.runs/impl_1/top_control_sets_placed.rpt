@@ -1,0 +1,80 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat Mar 19 21:01:43 2022
+| Host         : DESKTOP-1SAUHT5 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    12 |
+| Unused register locations in slices containing registers |    43 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            3 |
+|      2 |            1 |
+|      4 |            1 |
+|      7 |            1 |
+|    16+ |            6 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               8 |            5 |
+| No           | No                    | Yes                    |              36 |           15 |
+| No           | Yes                   | No                     |              25 |           11 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              64 |           35 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------+---------------+---------------------------------+------------------+----------------+
+|   Clock Signal   | Enable Signal |         Set/Reset Signal        | Slice Load Count | Bel Load Count |
++------------------+---------------+---------------------------------+------------------+----------------+
+|  NP/MHztoKHz/CP  |               | NP/AN[0]_i_1_n_0                |                1 |              1 |
+|  NP/MHztoKHz/CP  |               | NP/Q[0]                         |                1 |              1 |
+|  clk_IBUF_BUFG   |               |                                 |                1 |              1 |
+|  NP/MHztoKHz/CP  |               | NP/Q[2]                         |                1 |              2 |
+|  NP/MHztoKHz/CP  |               | NP/Q[1]                         |                3 |              4 |
+|  NP/MHztoKHz/CP  |               |                                 |                4 |              7 |
+| ~clk_a_IBUF_BUFG | Ra/E[0]       | Rf/rst_n                        |               10 |             16 |
+| ~clk_a_IBUF_BUFG | islow_IBUF    | Rf/rst_n                        |                7 |             16 |
+| ~clk_b_IBUF_BUFG | Ra/E[0]       | Rf/rst_n                        |                9 |             16 |
+| ~clk_b_IBUF_BUFG | islow_IBUF    | Rf/rst_n                        |                9 |             16 |
+|  clk_IBUF_BUFG   |               | NP/MHztoKHz/cnt_pos[16]_i_1_n_0 |                5 |             17 |
+| ~clk_f_IBUF_BUFG |               | Rf/rst_n                        |               15 |             36 |
++------------------+---------------+---------------------------------+------------------+----------------+
+
+

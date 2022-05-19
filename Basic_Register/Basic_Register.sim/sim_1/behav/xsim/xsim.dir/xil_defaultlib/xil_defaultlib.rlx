@@ -1,0 +1,9 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/Data/Vivado/Basic_Register/Basic_Register.sim/sim_1/behav/xsim/glbl.v,1544155482,verilog,,,,glbl,,,,,,,,
+D:/Data/Vivado/Basic_Register/Basic_Register.srcs/sim_1/new/Basic_Register_Test.v,1639210744,verilog,,,,Basic_Register_Test,,,,,,,,
+D:/Data/Vivado/Basic_Register/Basic_Register.srcs/sources_1/new/Basic_Register.v,1639209640,verilog,,D:/Data/Vivado/Basic_Register/Basic_Register.srcs/sources_1/new/Register_8D.v,,Basic_Register,,,,,,,,
+D:/Data/Vivado/Basic_Register/Basic_Register.srcs/sources_1/new/Register_8D.v,1639208164,verilog,,D:/Data/Vivado/Basic_Register/Basic_Register.srcs/sources_1/new/TriState_Gate.v,,Register_8D,,,,,,,,
+D:/Data/Vivado/Basic_Register/Basic_Register.srcs/sources_1/new/TriState_Gate.v,1639210430,verilog,,D:/Data/Vivado/Basic_Register/Basic_Register.srcs/sim_1/new/Basic_Register_Test.v,,TriState_Gate,,,,,,,,

@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Data/Vivado/Basic_Register/Basic_Register.srcs/sources_1/new/Basic_Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Data/Vivado/Basic_Register/Basic_Register.srcs/sources_1/new/Register_8D.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register_8D
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Data/Vivado/Basic_Register/Basic_Register.srcs/sources_1/new/TriState_Gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TriState_Gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Data/Vivado/Basic_Register/Basic_Register.srcs/sim_1/new/Basic_Register_Test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Basic_Register_Test

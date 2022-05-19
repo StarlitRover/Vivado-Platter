@@ -1,0 +1,1 @@
+-wto "d39e620cfc2f42aaaef576818aaf2858" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "JK_Trigger_Test_behav" "xil_defaultlib.JK_Trigger_Test" "xil_defaultlib.glbl" -log "elaborate.log" 

@@ -1,0 +1,24 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/Data/Vivado/ALU/ALU.srcs/sources_1/new/ALU.v,1651718240,verilog,,D:/Data/Vivado/RIU/RIU.srcs/sources_1/new/ALU_TOP.v,,ALU,,,,,,,,
+D:/Data/Vivado/ALU/ALU.srcs/sources_1/new/FlagU.v,1652535454,verilog,,D:/Data/Vivado/Fetch_Decode/Fetch_Decode.srcs/sources_1/new/ID1.v,,FlagU,,,,,,,,
+D:/Data/Vivado/ALU/ALU.srcs/sources_1/new/NumberDisplay.v,1647685816,verilog,,D:/Data/Vivado/ALU/ALU.srcs/sources_1/new/NumberDisplayOne.v,,NumberDisplay,,,,,,,,
+D:/Data/Vivado/ALU/ALU.srcs/sources_1/new/NumberDisplayOne.v,1647676044,verilog,,D:/Data/Vivado/Fetch_Decode/Fetch_Decode.srcs/sources_1/new/PC.v,,NumberDisplayOne,,,,,,,,
+D:/Data/Vivado/ALU/ALU.srcs/sources_1/new/RegisterF.v,1651669130,verilog,,D:/Data/Vivado/ALU/ALU.srcs/sources_1/new/divider.v,,RegisterF,,,,,,,,
+D:/Data/Vivado/ALU/ALU.srcs/sources_1/new/divider.v,1647676704,verilog,,D:/Data/Vivado/RIU/RIU.srcs/sim_1/new/RUI_test.v,,divider,,,,,,,,
+D:/Data/Vivado/Fetch_Decode/Fetch_Decode.srcs/sources_1/new/ID1.v,1652539398,verilog,,D:/Data/Vivado/RIU/RIU.srcs/sources_1/new/ID2.v,,ID1,,,,,,,,
+D:/Data/Vivado/Fetch_Decode/Fetch_Decode.srcs/sources_1/new/IR.v,1651661394,verilog,,D:/Data/Vivado/ALU/ALU.srcs/sources_1/new/NumberDisplay.v,,IR,,,,,,,,
+D:/Data/Vivado/Fetch_Decode/Fetch_Decode.srcs/sources_1/new/PC.v,1652513428,verilog,,D:/Data/Vivado/Register_File/Register_File.srcs/sources_1/new/RF.v,,PCM,,,,,,,,
+D:/Data/Vivado/RIU/RIU.sim/sim_1/behav/xsim/glbl.v,1544155482,verilog,,,,glbl,,,,,,,,
+D:/Data/Vivado/RIU/RIU.srcs/sim_1/new/RUI_test.v,1652539992,verilog,,,,RUI_test,,,,,,,,
+D:/Data/Vivado/RIU/RIU.srcs/sources_1/ip/DM/sim/DM.v,1652935872,verilog,,D:/Data/Vivado/RIU/RIU.srcs/sources_1/ip/IM/sim/IM.v,,DM,,,,,,,,
+D:/Data/Vivado/RIU/RIU.srcs/sources_1/ip/IM/sim/IM.v,1652510342,verilog,,D:/Data/Vivado/ALU/ALU.srcs/sources_1/new/ALU.v,,IM,,,,,,,,
+D:/Data/Vivado/RIU/RIU.srcs/sources_1/new/ALU_TOP.v,1651663206,verilog,,D:/Data/Vivado/RIU/RIU.srcs/sources_1/new/CU.v,,ALU_TOPP,,,,,,,,
+D:/Data/Vivado/RIU/RIU.srcs/sources_1/new/CU.v,1652872956,verilog,,D:/Data/Vivado/RIU/RIU.srcs/sources_1/new/FD_TOP.v,,CU,,,,,,,,
+D:/Data/Vivado/RIU/RIU.srcs/sources_1/new/FD_TOP.v,1652517570,verilog,,D:/Data/Vivado/ALU/ALU.srcs/sources_1/new/FlagU.v,,FD_TOP,,,,,,,,
+D:/Data/Vivado/RIU/RIU.srcs/sources_1/new/ID2.v,1652515872,verilog,,D:/Data/Vivado/Fetch_Decode/Fetch_Decode.srcs/sources_1/new/IR.v,,ID2,,,,,,,,
+D:/Data/Vivado/RIU/RIU.srcs/sources_1/new/RF_top.v,1651724234,verilog,,D:/Data/Vivado/RIU/RIU.srcs/sources_1/new/RUITEST.v,,RF_top,,,,,,,,
+D:/Data/Vivado/RIU/RIU.srcs/sources_1/new/RUITEST.v,1652539582,verilog,,D:/Data/Vivado/ALU/ALU.srcs/sources_1/new/RegisterF.v,,RUITEST,,,,,,,,
+D:/Data/Vivado/Register_File/Register_File.srcs/sources_1/new/RF.v,1648434656,verilog,,D:/Data/Vivado/RIU/RIU.srcs/sources_1/new/RF_top.v,,RF,,,,,,,,
