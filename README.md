@@ -1,5 +1,5 @@
-# vIvAdO
-香辣酸爽的数电计组实验大集萃，保质期：2 semester
+# ViVaDO
+香辣酸爽的数电计组实验大集萃，保质期：2 semesters
 
 - ALU： 算术逻辑单元（Arithmetic Logic Unit）
 - Base7_Counter： 7进制计数器
